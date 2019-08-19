@@ -18,4 +18,7 @@ end
 
 def printer(array)
   attendees = []
+  puts badges
+  puts room_assignments
+end
   
