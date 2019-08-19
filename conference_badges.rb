@@ -15,4 +15,3 @@ def assign_rooms(array)
   array.each_with_index {|attendee, index| room_assignments.push("Hello, #{attendee}! You'll be assigned to room !")}
   return room_assignments
 end
-  
