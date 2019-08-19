@@ -3,8 +3,8 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-  array.each {|attendee| badges.push("Hello, my name is #{attendee}.")}
-  return badges
+  array.collect {|attendee| badges.push("Hello, my name is #{attendee}.")}
+  #return badges
 end
 
 def assign_rooms(array)
