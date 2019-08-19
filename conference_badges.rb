@@ -11,4 +11,6 @@ end
 
 def assign_rooms(array)
   attendees = []
+  badges = []
+  array.each_with_index {
   
