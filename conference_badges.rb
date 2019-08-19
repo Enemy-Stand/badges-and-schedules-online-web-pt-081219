@@ -11,6 +11,8 @@ end
 
 def assign_rooms(array)
   attendees = []
-  badges = []
-  array.each_with_index {
+  room_assignments = []
+  array.each_with_index {|attendee| room_assignments.push("Hello, #{attendee}! You'll be assigned to room #{index}!")
+  return room_assignments
+end
   
